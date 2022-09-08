@@ -37,7 +37,7 @@ function Register() {
             <br></br>
             <Input 
                 type = "password"
-                placeholder = "password"
+                placeholder = "Password"
                 value = {passwd}
                 onChange = {(event) => setPasswd(event.target.value)}
             />
@@ -61,7 +61,7 @@ const StyledDiv = styled.div`
     position-relative;
     cursor: pointer;
     margin-top: 10%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0,2), 0, 6px 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 `
 
 const Input = styled.input`
